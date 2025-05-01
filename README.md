@@ -20,7 +20,7 @@ A simple CLI tool written in Go that fetches and displays the **current weather*
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation in linux
 
 1. **Clone the repo:**
 
@@ -45,27 +45,18 @@ go build -o weather
 
 ## 🛠️ Usage
 
-When prompted, enter the **latitude** and **longitude** of the location you'd like to check the weather for.
+Enter city name
 
 Example:
 
 ```
-Enter latitude: 28.61
-Enter longitude: 77.20
+./wether mumbai
 
-🌡️  Temperature: 32.3°C
-💨 Wind Speed: 14.2 km/h
-🌈 Conditions: Clear sky
-⏰ Time: 2025-04-30T12:00
+🌡️  Temperature: 28.3°C
+💨 Wind Speed: 0.5 km/h
+🌈 Conditions: Partly cloudy
+⏰ Time: 2025-04-30T19:15
 ```
-
----
-
-## 🌐 Supported Locations
-
-Any global location using geographic coordinates (latitude & longitude).
-
-You can use [latlong.net](https://www.latlong.net/) or Google Maps to find coordinates.
 
 ---
 
@@ -83,5 +74,5 @@ MIT License
 
 ## 🙋‍♂️ Author
 
-**Your Name**  
-[GitHub Profile](https://github.com/yourusername)
+**Kevin**  
+[GitHub Profile](https://github.com/KEvin-topiya)
